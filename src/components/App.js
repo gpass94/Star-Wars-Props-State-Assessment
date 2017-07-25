@@ -64,12 +64,9 @@ class App extends Component {
     })
     return (
       <div className="App">
-        {/*
-        The App component needs the following:
-         jumbotron section, form section, vehicle cards section.
-         Your form will also need a header in which you will pass the state of the form upon submit.
-         */}
-      </div>
+        <Jumbotron />
+        <StarWarForm />
+        <div className = ''
     );
   }
 }
